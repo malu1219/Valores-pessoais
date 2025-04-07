@@ -1,3 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* App.css */
+.custom-title {
+    font-family: 'Georgia', serif;
+  }
+  body {
+    font-family: 'Lora', serif;
+    background-color: #f4f1ed; /* um tom neutro-terroso de fundo */
+    color: #2f2f2f; /* texto escuro, suave */
+  }
+  button {
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  
